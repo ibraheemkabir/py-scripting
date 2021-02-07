@@ -24,7 +24,12 @@ print(mynow)
 grades = [9.1,8.8,7.5]
 student_grades = {'marry':9.1,"sim":8.9}
 grades.count(9.1)
-mysum = sum(grades)
-length = len(grades)
+mysum = sum(student_grades.values())
+length = len(student_grades)
 mean = mysum/length
+
+monday_temperatures = (1,4,5)
+
+tup = 'tuple is an ordered collection of objects'
+print(monday_temperatures)
 print(mean)
