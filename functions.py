@@ -11,7 +11,23 @@ def foo(ounce):
 
 isinstance(3,int)
 
+def weather_Condtion(temp):
+    if temp > 7:
+        return "Warm"
+    else:
+        return "Cold"
+    
+name = input('please enter your name:')
 
+message = "Hello %s" % name
 
-student_grades = {"Mary":9.1,"Mari":9.2,"Mari3":9.3}
-print(mean(student_grades))
+for letter in 'hello':
+    print(letter.titile())
+    
+print(message)
+
+username = ''
+while username != 'pypy':
+    username = input("Enter username: ")
+    
+user_input = input('Enter temp:')
