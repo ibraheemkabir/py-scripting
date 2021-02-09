@@ -17,7 +17,9 @@ while True:
     else:
         result.append(sentence_maker(user_input))
 
+
 temps = [221,234,340,230]
+
 
 new_temp=[temp/10 for temp in temps]
 new_temp2=[temp/10 for temp in temps if temp != -9999]
